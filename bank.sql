@@ -33,6 +33,7 @@ INSERT INTO `accounts` (`nr`, `username`, `balance`) VALUES
 (78940005, 'Tom', 1560),
 (79167592, 'Jake', 200),
 (86652967, 'Tom', 0),
+(10101010, 'Test', 5000),
 (92567261, 'Jake', 3020);
 
 -- --------------------------------------------------------
@@ -58,6 +59,7 @@ INSERT INTO `authorities` (`username`, `authority`) VALUES
 ('Maria', 'ROLE_ADMIN'),
 ('Mike', 'ROLE_ADMIN'),
 ('Sara', 'ROLE_NEWUSER'),
+('Test', 'ROLE_ADMIN'),
 ('Tom', 'ROLE_NEWUSER');
 
 -- --------------------------------------------------------
@@ -83,6 +85,7 @@ INSERT INTO `users` (`username`, `password`, `enabled`) VALUES
 ('Maria', '3e182b1ea9376483a38614d916a0b666ef531b6d', 1),
 ('Mike', 'd6ac022931a66a2bcc244db91818ebec76ce5e18', 1),
 ('Sara', '5d569dfc13001c8b30aa11eeb2a59d22071f3d80', 1),
+('Test', 'A123456a', 1),
 ('Tom', '26d58cf3df0903a2298788b72fced5bca9ea7144', 1);
 
 --
